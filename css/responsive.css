@@ -1,0 +1,380 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .advertise-left h1 {
+        font-size: 55px;
+    }
+
+    .advertise-left .advertise-left-social {
+        width: 80%;
+    }
+
+    .rates .container .div1 h1 {
+        font-size: 25px;
+    }
+
+    .signup-container form {
+        width: 70%;
+    }
+
+    .cart-header-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 997px) {
+    .card-section .time {
+        font-size: 18px;
+    }
+
+    .card-section .time .watch {
+        font-size: 28px;
+    }
+
+    .categories .categories-box-inner h4 {
+        font-size: 14px;
+    }
+
+    .features {
+        gap: 80px;
+    }
+
+    .advertise-left h1 {
+        font-size: 45px;
+    }
+
+    .advertise-left .advertise-left-social div {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-post .post-content {
+        padding: 0 10px 0 0;
+    }
+
+    .about-post .post-content h1 {
+        font-size: 40px;
+        padding: 0px 0;
+    }
+
+    .about-post .post-content p {
+        padding: 10px 0;
+    }
+
+    .rates .container .div1 h1 {
+        font-size: 20px;
+    }
+
+    .profile .profile-card h1 {
+        font-size: 25px;
+    }
+
+    .cart-item h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 967px) {
+    .product-card-outer {
+        width: 33.33%;
+    }
+
+    .best-sell-div h1 {
+        margin: 10px 0;
+    }
+
+    .categories .categories-box {
+        width: 33.33%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .small-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .features {
+        gap: 50px;
+    }
+
+    .carousel1 .item {
+        height: 60vh;
+    }
+
+    .profile .profile-card h1 {
+        font-size: 20px;
+    }
+
+    .cart .cart-item .product-info {
+        flex-direction: column;
+        gap: 0;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        /* background-color: aqua; */
+        font-size: 13px;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    nav .container {
+        width: 95%;
+    }
+
+    .navbar .nav-ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        display: none;
+        padding: 10px 0;
+        
+        
+    }
+
+    .navbar .icons {
+        position: absolute;
+        top: 9px;
+        right: 0;
+    }
+
+    .navbar .nav-ul li {
+        padding: 7px 0;
+        border-radius: 10px;
+    }
+
+    .navbar .nav-ul li:hover {
+        background-color: rgb(208, 208, 208);
+    }
+
+    .card-section .time {
+        font-size: 15px;
+    }
+
+    .card-section .time .watch {
+        font-size: 25px;
+    }
+
+
+    .advertise {
+        flex-direction: column-reverse;
+    }
+
+    .advertise-right {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .advertise-left {
+        padding: 20px 50px;
+        width: 100%;
+    }
+
+    .advertise-left button {
+        width: 100%;
+    }
+
+    .advertise-left .advertise-left-social {
+        width: 100%;
+    }
+
+    .about-post .container {
+        flex-direction: column;
+    }
+
+    .about-post .post-content {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .about-post .post-img {
+        width: 100%;
+    }
+
+    .rates .container .div1 {
+        width: 48%;
+    }
+
+    .signup-container {
+        flex-direction: column;
+    }
+
+    .signup-container .image,
+    .signup-container .form {
+        width: 100%;
+    }
+
+    .signup-container form {
+        width: 90%;
+    }
+
+    .signup-container {
+        flex-direction: column-reverse;
+    }
+
+    /* /////////  */
+
+    .cart-header {
+        display: none;
+    }
+
+    .cart .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+    }
+
+    .cart .cart-item .div {
+        width: 100%;
+        padding: 5px 5px;
+    }
+
+    .cart .cart-item .product-info {
+        flex-direction: row;
+        gap: 10px;
+        border: none;
+    }
+
+    .order-box {
+        width: 95%;
+    }
+
+    .remove-btn {
+        position: absolute;
+        right:5%;
+        top: 14%;
+    }
+    .navbar h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 720px) {
+    .carousel2 .owl-nav {
+        position: static;
+        margin: 0px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .product-card-outer {
+        width: 50%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .categories .categories-box {
+        width: 50%;
+        height: 120px;
+    }
+
+    .Browse-By-Category {
+        font-size: 28px;
+    }
+
+    .container-contact {
+        flex-direction: column-reverse;
+    }
+
+    .profile .profile-card {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .small-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .advertise-left h1 {
+        font-size: 30px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .best-sell-div h1 {
+        font-size: 30px;
+    }
+
+    .carousel1 .item {
+        height: 50vh;
+    }
+
+    .carousel1 .item {
+        height: 35vh;
+    }
+
+    .container-contact .form-row {
+        flex-direction: column;
+    }
+
+    .container-contact button {
+        margin: auto;
+    }
+
+    .pagenotfound-btn {
+        width: 30vw;
+    }
+
+    .advertise-left {
+        padding: 20px 30px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .best-sell-div h1 {
+        font-size: 25px;
+    }
+
+    .best-sell-div-btn {
+        padding: 10px 15px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .product-card-outer {
+        width: 100%;
+    }
+
+    .card-section .time {
+        font-size: 12px;
+    }
+
+    .card-section .time .watch {
+        font-size: 22px;
+    }
+
+    .Explore-Our-Products {
+        font-size: 25px;
+    }
+
+    .rates .container .div1 {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .pagenotfound-btn {
+        width: 40vw;
+        padding: 10px 5px;
+    }
+
+}
+
+/* .product-card-outer */
